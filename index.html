@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>Portifolio</h1>
+        <div class="sections">
+            <ul>
+                <li>
+                    <a href="#sobre">About</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#projetos">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div id="sobre">
+                <h2>About</h2>
+                <div id="tudo">
+                    <div class="fotoPerfil"> 
+                        <img src="./imagens/curriculo 2.jpg">
+                    </div>
+                    <p>
+                        Olá, me chamo Marcos Vinicius Clemente Cavalcanti, tenho 20 anos <br/>
+                        e atualmente estou cursando meu 7º periodo de Engenharia da Compu- <br/>
+                        tação na Universidade São Judas Tadeu. Também estou realizando um cur- <br/>
+                        so de Engenheiro Front-End na Escola da EBAC. Aqui, nesse portifólio, aco- <br/>
+                        modarei meus projetos propostos em aula e projetos de minha autoria.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+            <section>
+                <div id="skills">
+                    <h2>Skills</h2>
+                    <div id="skills2">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" id="html">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" id="css">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" id="js">
+                <!--adicione aqui suas outras skils-->
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <article id="projetos">
+                <h2>Projects</h2>
+                <button type="submit" id="add">Add more projects</button>
+            <form>
+                <input type="url" id="novoEndereço" required placeholder="url">
+                <button type="submit">add</button>
+                <button type="reset" id="cancel-button">cancel</button>
+            </form>
+            <ul class="project">
+                <li>
+                    <a href="../projeto mentalista/mentalista.html">
+                        <img src="./imagens/Captura de tela 2022-10-16 181709.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://projeto1-ebac-sigma.vercel.app/">
+                        <img src="./imagens/Captura de tela 2022-10-15 194944.png" alt="página da loja">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://projeto2-ebac-zeta.vercel.app/">
+                        <img src="./imagens/Captura de tela 2023-03-03 173539.png" alt="lista telefonica">
+                    </a>
+                </li>
+            </ul> <br>
+            <ul class="project2">
+                <li>
+                    <a href="https://galeria-de-imagens-gamma.vercel.app/">
+                        <img src="./imagens/Captura de tela 2023-03-03 174135.png" alt="lista telefonica">
+                    </a>
+                </li>
+            </ul>
+        </article>
+        </section>
+        <div id="contatos">
+            <h2>Contato</h2>
+            <div class="contact">
+                <a href="https://www.linkedin.com/in/marcos-vinicius-clemente-cavalcanti-5194a4199/">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="linkedin">
+                </a>
+                <a href="https://github.com/viinii3">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github">
+                </a>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">
+                    <img src="./imagens/gmail.png" alt="email">
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<script src="./main.js"></script>
+</html>
